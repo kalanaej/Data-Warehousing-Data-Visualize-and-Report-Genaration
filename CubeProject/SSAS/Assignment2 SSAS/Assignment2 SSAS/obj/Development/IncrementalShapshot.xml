@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Assignment2 SSAS</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>MclX+as9GaqPVur7Qtx9iJqdeRM=5/7/2020 2:15:24 AM5/7/2020 1:49:21 AM</TimeStamp>
+        <ID>
+          <String>Assignment1 Retail DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>6h0/RuZkgxuNi9DWBtRb+pB0x5U=5/7/2020 8:09:56 AM5/7/2020 1:53:46 AM</TimeStamp>
+        <ID>
+          <String>Assignment1 Retail DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nPWvwX5Z3Qh3SGqeqJWfHlqRaqk=5/7/2020 8:54:20 AM5/7/2020 1:56:51 AM</TimeStamp>
+        <ID>
+          <String>Dim Campaign</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>imhovQGHzXxcb6xg81ewNl5lBUM=5/7/2020 8:39:11 AM5/7/2020 1:56:52 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4+qvM1gBOyeR6ve6LIOOCHA74Ws=5/7/2020 8:56:27 AM5/7/2020 1:56:52 AM</TimeStamp>
+        <ID>
+          <String>Dim Customer Demographics</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>n86Cq6kc7nHCxL8wXhqTUQ7py9E=5/7/2020 8:54:50 AM5/7/2020 1:56:52 AM</TimeStamp>
+        <ID>
+          <String>Dim Coupan Item</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8e7GnEEmOJnSAwS5zSrQa0W+vpw=5/7/2020 8:49:10 AM5/7/2020 1:56:52 AM</TimeStamp>
+        <ID>
+          <String>Dim Item Data</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Vapv+s/+De9nL/7OBp4zXDdeOl8=5/7/2020 2:04:37 AM5/7/2020 1:56:52 AM</TimeStamp>
+        <ID>
+          <String>Fact Customer Train Transaction</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>AdXN7arAs7rnAMJInnWbkH0Q2C8=5/7/2020 8:56:27 AM5/7/2020 1:56:51 AMvaXNYRxnXEcvY3+V3hC/z4T4HEI=5/7/2020 1:56:53 AM5/7/2020 1:56:51 AM</TimeStamp>
+        <ID>
+          <String>Assignment1 Retail DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>iApxDC+92xEgEvv+unvhQCTaqGc=5/7/2020 5:41:12 AM5/7/2020 2:33:47 AM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>lG+DHulCMkVIVyv3qhpCj4NKUDc=5/7/2020 2:36:53 AM5/7/2020 1:31:55 AM</TimeStamp>
+      <ID>
+        <String>Assignment2 SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-05-07T15:57:18.126667Z</LastDeployed>
+</DeploymentSnapshot>
